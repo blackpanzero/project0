@@ -1,0 +1,111 @@
+.join, .location, .phone, .email {
+  font-family: sans-serif;
+  line-height: 25px;
+  font-size: 15px;
+  color: white;
+}
+
+.mission, .History, .fundermental, .identity {
+  font-size: 22px;
+  line-height: 30px;
+  color: white;
+  padding: 5%;
+}
+
+.mission-pic, .History-pic, .identity-pic {
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+.showcase-prayer, .showcase-about, .showcase-contacts, .showcase-home {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-size: 100% 100%;
+}
+
+.email {
+  background-color: coral;
+}
+
+.phone {
+  background-color: green;
+}
+
+.location {
+  background-color: chocolate !important;
+}
+
+.join {
+  background-color: blue !important;
+}
+
+.showcase-home {
+  background-image: url("https://images.unsplash.com/photo-1536704231234-beca9772ca68?ixlib=rb-1.2.1&auto=format&fit=crop&w=667&q=80");
+}
+
+.showcase-contacts {
+  background-image: url("https://images.unsplash.com/photo-1481142889578-dda440dacfe1?ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80");
+}
+
+.showcase-about {
+  background-image: url("https://images.unsplash.com/photo-1536093058105-e4d1e0c5e525?ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80");
+}
+
+.showcase-prayer {
+  background-image: url("https://images.unsplash.com/photo-1579028055657-90417f188257?ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80");
+}
+
+.identity {
+  background-color: #10663b;
+}
+
+.identity-pic {
+  background-image: url("https://images.unsplash.com/photo-1457139621581-298d1801c832?ixlib=rb-1.2.1&auto=format&fit=crop&w=692&q=80");
+}
+
+.fundermental {
+  background-color: #033f77;
+}
+
+.History {
+  background-color: chocolate;
+}
+
+.History-pic {
+  background-image: url("https://images.unsplash.com/photo-1504052434569-70ad5836ab65?ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80");
+}
+
+.mission {
+  background-color: brown;
+}
+
+.mission-pic {
+  background-image: url("https://images.unsplash.com/photo-1499209974431-9dddcece7f88?ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80");
+}
+
+.topnav {
+  /* Add a black background color to the top navigation */
+  background-color: #333;
+  overflow: hidden;
+  /* Change the color of links on hover */
+  /* Add a color to the active/current link */
+}
+.topnav a {
+  /* Style the links inside the navigation bar */
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+.topnav a:active {
+  background-color: #4CAF50;
+  color: white;
+}
+
+/*# sourceMappingURL=variables.css.map */
