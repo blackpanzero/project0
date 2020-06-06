@@ -1,0 +1,144 @@
+
+
+$color:white;
+
+%contacts{
+
+	font-family: sans-serif;
+	line-height: 25px;
+    font-size: 15px ;
+    color: $color
+
+}
+%about{
+    font-size: 22px;
+    line-height: 30px;   
+    color: $color; 
+    padding: 5%;
+}
+%about-pics{
+    background-repeat: no-repeat;
+	background-size: 100% 100%
+}
+
+%showcase{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: 100% 100%;
+
+}
+
+
+
+.email{
+    @extend %contacts;
+    background-color: coral;
+}
+
+.phone{
+    @extend %contacts;
+	background-color: green;
+	
+}
+
+.location{
+    @extend %contacts;
+	background-color: chocolate !important;
+	}
+.join{
+
+    @extend %contacts;
+	background-color: blue !important;
+
+}
+
+
+.showcase-home{
+    @extend %showcase;
+    background-image: url("https://images.unsplash.com/photo-1536704231234-beca9772ca68?ixlib=rb-1.2.1&auto=format&fit=crop&w=667&q=80");
+}
+.showcase-contacts{
+    @extend %showcase;
+    background-image: url("https://images.unsplash.com/photo-1481142889578-dda440dacfe1?ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80");
+}
+.showcase-about{
+    @extend %showcase;
+    background-image: url("https://images.unsplash.com/photo-1536093058105-e4d1e0c5e525?ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80");
+}
+.showcase-prayer{
+    @extend %showcase;
+    background-image: url("https://images.unsplash.com/photo-1579028055657-90417f188257?ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80");
+}
+
+
+
+
+.identity{
+    @extend %about;
+background-color: rgb(16, 102, 59);
+	}
+
+.identity-pic{
+    @extend %about-pics;
+background-image: url("https://images.unsplash.com/photo-1457139621581-298d1801c832?ixlib=rb-1.2.1&auto=format&fit=crop&w=692&q=80");
+}
+
+.fundermental{
+    @extend %about;
+background-color: rgb(3, 63, 119);
+	}
+
+.History{
+    @extend %about;
+	
+	background-color: chocolate;
+
+	}
+
+.History-pic{
+    @extend %about-pics;
+	
+	background-image: url("https://images.unsplash.com/photo-1504052434569-70ad5836ab65?ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80");
+	
+
+}
+	
+.mission{
+    @extend %about;
+	
+	
+	background-color: brown;
+
+
+	}
+	
+.mission-pic{
+    @extend %about-pics;
+	background-image: url("https://images.unsplash.com/photo-1499209974431-9dddcece7f88?ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80");
+	
+}
+	
+.topnav{
+    /* Add a black background color to the top navigation */
+    background-color: #333;
+    overflow: hidden;
+    a{
+        /* Style the links inside the navigation bar */
+        float: left;
+        color: #f2f2f2;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 17px;
+    }
+     /* Change the color of links on hover */
+    a:hover{
+        background-color: #ddd;
+        color: black;
+    }
+     /* Add a color to the active/current link */
+    a:active{
+        background-color: #4CAF50;
+        color:$color;
+    }
+}
